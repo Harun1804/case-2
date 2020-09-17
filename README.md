@@ -11,14 +11,26 @@ Laravel Lumen is a stunningly fast PHP micro-framework for building web applicat
 
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
-## Contributing
+## How To Use
+1. Instal Composer First on [Composer Site](https://getcomposer.org/download/)
+2. Instal Library First
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```
+composer install
+```
 
-## Security Vulnerabilities
+3. Make Duplicate of .env from .env.example
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+```
+cp .env.example .env
+```
 
-## License
+4. Open .env file
+5. Change values of **DB_DATABASE**,**DB_NAME**,**DB_PASSWORD** same with your local servel
+6. Run App With
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```
+php -S localhost:8000 -t public
+```
+
+7. For **APP_KEY** you can get while running this app, on '/key' route, then copy from that and paste on **APP_KEY** value
