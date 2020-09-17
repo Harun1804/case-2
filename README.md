@@ -11,9 +11,22 @@ Laravel Lumen is a stunningly fast PHP micro-framework for building web applicat
 
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
+## How To Download
+1. Use git clone
+
+```
+git clone https://github.com/Harun1804/case-2.git
+```
+
+2. Go to Project Folder
+
+```
+cd case-2
+```
+
 ## How To Use
-1. Instal Composer First on [Composer Site](https://getcomposer.org/download/)
-2. Instal Library First
+1. Install Composer First on [Composer Site](https://getcomposer.org/download/)
+2. Install Library First
 
 ```
 composer install
